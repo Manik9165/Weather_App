@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 248, 243);
+    font-family: 'Jost', sans-serif;
+}
+.main_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.second_div{
+    box-sizing: border-box;
+    width: 20vw;
+    height: 60vh;
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px;
+}
+.second_div input{
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 10px;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    margin-top: 50%;
+}
