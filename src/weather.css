@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 248, 243);
+    font-family: 'Jost', sans-serif;
+}
+.text{
+    text-align: center;
+    text-shadow:  5px 5px 0px 0px  black;
+    letter-spacing: 1px;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.data{
+    text-align: center;
+}
+.box{
+    box-shadow: 2px 2px 2px 2px !important;
+}
