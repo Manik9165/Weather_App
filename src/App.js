@@ -27,8 +27,8 @@ const App = () => {
           <div>
             <div className="info">
               {!city ? (<p className="data">No Data Found 😢</p>) : (<>
-                <h2 className="location"><i className="fas fa-street-view"></i> {search} °C</h2>
-                <h1 className="temp"> {city.temp}</h1>
+                <h2 className="location"><i className="fas fa-street-view"></i> {search}</h2>
+                <h1 className="temp"> {city.temp} °C</h1>
                 <h4 className="temp-min-max"> Min : {city.temp_min} °C | Max : {city.temp_max} °C</h4>
               </>)}
             </div>
